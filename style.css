@@ -1,0 +1,34 @@
+body {
+  background-image: url("002.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+.main {
+  width: 700px;
+  background-color: rgb(223, 85, 119);
+  margin: 20px auto;
+  border: 5px solid yellowgreen;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: "Mansalva", cursive;
+  font-size: 4rem;
+}
+
+#start {
+  color: yellowgreen;
+  background-color: rgb(219, 41, 124);
+  padding: 20px;
+  margin: 40px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.fonts {
+  text-align: center;
+  padding: 20px;
+  font-family: "Mansalva", cursive;
+  font-size: 2rem;
+}
