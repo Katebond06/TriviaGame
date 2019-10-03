@@ -21,14 +21,29 @@ h1 {
   color: yellowgreen;
   background-color: rgb(219, 41, 124);
   padding: 20px;
-  margin: 40px;
+  margin: 20px;
+  width: 30%;
   border-radius: 10px;
   font-size: 2rem;
+}
+
+#go {
+  text-align: center;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
 }
 
 .fonts {
   text-align: center;
   padding: 20px;
-  font-family: "Mansalva", cursive;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+}
+
+#time {
+  text-align: center;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
 }
