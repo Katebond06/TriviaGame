@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -12,6 +14,10 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
       rel="stylesheet"
     />
     <title>Trivia Game</title>
@@ -25,8 +31,10 @@
       <div id="time"></div>
       <div id="question" class="fonts"></div>
       <br />
-      <div id="choice" class="fonts"></div>
-      <button id="reset">Play Again?</button>
+      <div id="choice" class="fonts2"></div>
+      <div id="go_again">
+        <button id="reset">Play Again?</button>
+      </div>
     </div>
 
     <script type="text/javascript" src="app.js"></script>
